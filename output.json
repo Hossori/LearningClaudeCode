@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training Athlete\n\nHere is a one-day meal plan for an athlete training for a marathon with high carbohydrate intake for endurance performance:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (110g), Fat (80g), Carbs (480g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with banana (150g), raisins (40g), and sunflower seeds (20g). Low-fat milk (240ml).\n    * Protein: 15g, Fat: 8g, Carbs: 95g\n\n* **Mid-Morning Snack (10:00 AM):** Energy bar made with oats and dried fruit (60g) and orange juice (250ml).\n    * Protein: 6g, Fat: 4g, Carbs: 60g\n\n* **Lunch (1:00 PM):** Lentil and vegetable soup (400ml), whole wheat bread (80g), hummus (40g), and mixed vegetables (carrot 50g, cucumber 50g).\n    * Protein: 18g, Fat: 12g, Carbs: 95g\n\n* **Pre-Training Snack (3:30 PM):** Rice cakes (50g) with jam (30g) and apple (120g).\n    * Protein: 3g, Fat: 1g, Carbs: 65g\n\n* **Dinner (7:00 PM):** Chickpea and spinach curry (250g chickpeas cooked weight, 150g spinach) with white rice (150g cooked weight) and whole wheat naan bread (60g).\n    * Protein: 36g, Fat: 15g, Carbs: 120g\n\n* **Evening Snack (9:00 PM):** Greek yogurt (170g, low-fat) with honey (15g) and granola (40g).\n    * Protein: 22g, Fat: 40g, Carbs: 45g\n\nThis meal plan emphasizes complex carbohydrates for sustained energy during marathon training, includes adequate protein for muscle recovery, and relies on plant-based protein sources (legumes, grains, seeds, and dairy) while avoiding all nuts to meet your dietary restrictions.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training with high carbohydrate intake for endurance performance",
+        "restrictions": "Vegetarian, no nuts"
+      },
+      "solution_criteria": [
+        "Meal plan includes 4-5 meals/snacks distributed throughout the day with carbohydrate-focused meals timed around training",
+        "Daily caloric and macronutrient targets appropriate for a 68kg endurance athlete in training (approximately 2800-3200 calories with 55-65% carbohydrates)",
+        "All meals comply with vegetarian and nut-free restrictions",
+        "Plan is presented in compact, single-day format with clear meal timing"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring elevated carbohydrate and calorie intake with specific timing around training sessions"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively meets all mandatory requirements with precise caloric totals, detailed macronutrient breakdowns, and exact meal specifications with timing. All meals strictly comply with vegetarian and nut-free restrictions (using legumes, seeds, and dairy for protein). The carbohydrate-focused approach (60%) is ideal for marathon training, and meal timing demonstrates strategic planning around training. The plan is presented in a compact, single-day format as requested. Minor concerns about fat distribution and the upper caloric range do not violate criteria but represent minor optimization opportunities. The solution directly addresses all secondary criteria effectively."
+  }
+]
